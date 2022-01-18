@@ -15,8 +15,6 @@ class ShowUserProfileUseCase {
       throw new Error("Mensagem de Erro");
     }
 
-    console.log(user);
-
     return user;
   }
 }
